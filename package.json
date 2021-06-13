@@ -13,7 +13,9 @@
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@rollup/plugin-typescript": "^8.0.0",
     "@tsconfig/svelte": "^2.0.0",
+    "@types/page": "^1.11.2",
     "autoprefixer": "^10.2.6",
+    "dotenv": "^10.0.0",
     "postcss": "^8.3.0",
     "postcss-load-config": "^3.0.1",
     "rollup": "^2.3.4",
@@ -26,11 +28,14 @@
     "svelte-preprocess": "^4.7.3",
     "tailwindcss": "^2.1.4",
     "tslib": "^2.0.0",
-    "typescript": "^4.0.0"
+    "typescript": "^4.0.0",
+    "rxfire": "^4.0.0"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "firebase": "^8.6.5",
+    "firebase": "^8.6.7",
+    "page": "^1.11.6",
+    "rxfire": "^4.0.0",
+    "rxjs": "^7.1.0",
     "sirv-cli": "^1.0.0"
   }
 }
